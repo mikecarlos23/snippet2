@@ -1,0 +1,383 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* color: aliceblue; */
+
+font-family: 'Livvic', sans-serif;
+/* font-style: italic; */
+
+    
+}
+main{
+    height: 100vh;
+    color: aliceblue;
+}
+
+.home-section{
+height: 80vh;
+
+}
+.nav-bar{
+    /* background-color: rgba(0, 0, 255, 0.791); */
+    background:#0b70e1 ; 
+  background: #007bff;
+  background: #007aff;
+  /* background:linear-gradient(to right top,) ; */
+   background: linear-gradient(to right top,rgb(1, 1, 130), #007bff );
+    height: 200px;
+ padding-top: 20px;
+   
+    /* font-size: small; */
+}
+.nav-contact{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   align-items: center;
+ 
+}
+
+.mail{
+    width: 10px; 
+ 
+    /* padding-top: 10px; */
+    
+    /* padding-right: 5px; */
+    
+}
+.email{
+    padding-left: 10px;
+    
+   
+}
+.phone-icon{
+    width: 17px;
+    height: 17px;
+}
+a{
+text-decoration: none !important;
+color: aliceblue;
+}
+.location{
+    padding-top: 20px;
+    
+}
+.phone-number{
+    padding-top:20px ;
+    /* font-size: small; */
+}
+.location img{
+    width: 17px;
+    height: 17px; 
+}
+.logo-section{
+    padding-top: 40px;
+}
+.logo{
+    padding-left: 20px;
+}
+.check-btn{
+    color: white;
+    font-size: 20px;
+    float: right;
+    padding-right: 20px;
+    font-weight: bolder;
+    /* line-height: 80px; */
+}
+
+.main-section{
+    height: 55vh;
+    
+  
+   background-image: url('./Pics/taylor-sondgeroth-ltsKOg_q_Gc-unsplash.jpg');
+   background-repeat: no-repeat;
+   /* background-attachment: fixed; */
+   background-size: 100% 100%;
+ background-size: cover;
+  
+
+}
+.main-section div{
+    /* font-size: 20px; */
+   
+    text-align: center;
+    height: 100%;
+    /* max-width: 50%; */
+    background: rgba(0, 0, 0, 0.327);  
+    /* background-size: 100% 100%; */
+    /* animation: slide-up 1s; */
+    /* display: none; */
+    
+   
+}
+@keyframes slide-up{
+    from{
+        /* transform: translateX(0); */
+        opacity: 0.2;
+        line-height: 200px;
+    }
+    to{
+        /* transform: translateY(-20px); */
+        opacity: 1;
+        line-height: 30px;
+
+
+    }
+}
+
+.main-section div .first-span {
+  
+    display: block;
+    padding-top: 150px;
+   font-weight: bolder;
+   font-size: 28px;
+   
+}
+.first-article{
+    animation: slide-up 1s;
+}
+.second-article{
+    display: none;
+    animation: slide-up2 1s;
+}
+@keyframes slide-up2{
+    from{
+        /* transform: translateX(0); */
+        opacity: 0.2;
+        line-height: 200px;
+    }
+    to{
+        /* transform: translateY(-20px); */
+        opacity: 1;
+        line-height: 30px;
+
+
+    }
+}
+.second-span{
+    /* display: none ; */
+    display: block;
+    padding-top: 150px;
+   font-weight: bolder;
+   font-size: 28px;
+}
+.Menu-container{
+    color: black;
+    position: fixed;
+    height: 100%;
+    width: 60vw;
+    position: fixed; 
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transition: 5s;
+   display: none;
+   animation: menu-slide .5s;
+   
+ 
+  /* color: #0b70e1; */
+  
+  
+}
+.menu{
+    
+background-color: white;
+height: 800px;
+width: 90vw;
+
+transform: translateX(20%);
+
+
+
+
+background-repeat: no-repeat;
+/* background-attachment: fixed; */
+background-size: 100% 100%;
+background-size: cover;
+}
+.menu-content{
+  padding-left: 30px;  
+  padding-right: 60px;
+  padding-top: 50px;
+ 
+}
+.menu-content p{
+    
+    border-bottom: 0.1px rgba(184, 184, 184, 0.802) solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+   
+    
+    /* opacity: 0.7 */
+}
+.about{
+    border: none !important;
+}
+
+.modal-menu{
+    padding-left: 200px;
+    color: blue;
+    font-size: 25px;
+}
+
+.first-paragraph a{
+    /* color: black !important; */
+    font-weight: bold;
+}
+.menu-content p a{
+color: rgba(0, 0, 0, 0.818);
+font-weight: bold;
+color: rgba(49, 49, 241, 0.881);
+}
+@keyframes menu-slide{
+    from{
+         transform: translateX(200px); 
+        
+    }
+    to{
+        transform: translateX(0);
+       
+        
+
+
+    }
+}
+.second-contact p{
+    border: none;
+    padding-top: 0px;
+    padding-left: 25px;
+    max-width: 200px;
+    
+    
+}
+.second-email{
+    display: inline;
+    width: 25px;
+    height: 25px;
+}
+.divide{
+    display: flex;
+    padding-top: 30px;
+    /* justify-content: space-between; */
+    /* max-width: 210px; */
+}
+.second-contact img{
+    width: 25px;
+    height: 25px;
+    /* padding-top: 10px; */
+}
+.bold-contact{
+    font-weight: bolder;
+}
+.second-contact{
+    padding-top: 60px;
+}
+.breeds-container{
+height: 50vh;
+
+/* height: 150vh; */
+
+    color: black;
+    padding-top: 100px;
+
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.029),rgba(51, 51, 51, 0.032)), url(./Pics/2709577_14710.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  background-size: center;
+  box-sizing: border-box;
+ 
+}
+.english-bull-dog{
+    /* border: 1px solid gray; */
+    /* width: 335px; */
+    width: 80%;
+    height: 80%;
+    background: white;
+    /* margin-left: 10px; */
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.222);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 2;
+   
+    margin-top: 20px;
+   
+   
+}
+
+.breeds img{
+    /* width: 330px; */
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+    /* height: 200px; */
+}
+.english-bull-dog p{
+    color: #007aff;
+    font-weight: bold;
+     background: white; 
+   padding: 15px;
+
+   width: 100%;
+   
+   
+ 
+    
+}
+
+
+.adoption{
+    /* border-top: gray 1px solid; */
+border-bottom-left-radius: 10px !important;
+border-bottom-right-radius: 10px;
+border-top: 1px solid gray;
+}
+.adoption a{
+    color: inherit;
+}
+.breeds-container h1{
+    color: #0b70e1;
+
+
+}
+.breeds{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.extra-space{
+      background: linear-gradient(rgba(0, 0, 0, 0.029),rgba(51, 51, 51, 0.032)), url(./Pics/2709577_14710.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  background-size: cover; 
+  height: 50vh;
+  width: 100%;
+}
+footer{
+    background-color: #007bff;
+ 
+  padding: 50px;
+}
+footer div img{
+width: 20px;
+}
+footer div span{
+    display: flex;
+    justify-content: space-between;
+
+}
+footer div p{
+    text-align: center;
+    padding-top: 20px;
+}

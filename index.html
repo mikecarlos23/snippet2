@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Merriweather:ital,wght@1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,900&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+</head>
+<body>
+   <main>
+    <section class="home-section">
+       
+        <div class="nav-bar">
+          
+           <div class="nav-contact">
+            <span><a href="" class="email">mikewebster@gmail.com</a></span>
+            <span class="phone-number"><img src="call (4).png" alt="" class="phone-icon"> <a href="" >+237 672839462 / +237 6777362538</a></span>
+            <span class="location"><img src="location (1).png"> Brookyln Nyc</span>
+            
+           </div>
+           <div class="logo-section">
+           
+            <label for="check" class="check-btn">
+                ☰ 
+            </label>
+            
+            <span class="logo">Pet Heaven</span>
+            
+           </div>
+        </div>
+        <div class="main-section">
+<div>
+    <article class="first-article">
+    <span class="first-span"> A house isnt a home without a pet</span></article>
+    <article class="second-article"><span class="second-span"> You can't buy happiness but you can adopt it</span></article>
+</div>
+        </div>
+
+    </section>
+    
+   <section class="breeds-container">
+    
+    <h1>Available Breeds</h1>
+ 
+  <div class="breeds">
+    <div class="english-bull-dog">
+        <img src="./Pics/bulldog.jpeg" alt="English Bulldog">
+        <p>English Bulldog</p>
+        <p class="adoption"><a href="/Users/user/Documents/pet/English-Bull-dog/english-bull-dog.html">View available for adoption</a></p>
+
+    </div>
+   
+        <div class="english-bull-dog">
+            <img src="./Pics/labrador.jpeg" alt="Labrador Retrievers">
+            <p>Labrador Retrievers</p>
+            <p class="adoption"><a href="">View available for adoption</a></p>
+    
+        </div>    
+        
+            <div class="english-bull-dog">
+                <img src="./Pics/Chihuahua-Smooth-Coat.webp" alt="Labrador Retrievers">
+                <p>Chihuahua</p>
+                <p class="adoption"><a href="">View available for adoption</a></p>
+        
+            </div>
+  </div>
+   </section>
+<div class="extra-space">kskaj</div>
+<div class="extra-space">kskaj</div>
+<div class="extra-space">kskaj</div>
+<footer>
+<div>
+    <span><a href=""><img src="./Pics/facebook-app-symbol.png" alt=""></a><a href=""><img src="./Pics/instagram.png" alt=""></a><a href=""><img src="./Pics/whatsapp (1).png" alt=""></a></span>
+<p>&copy; 2023 Pet Heaven</p>
+</div>
+</footer>
+   </main>
+
+
+<div class="Menu-container " >
+    <div class="menu">
+       
+        
+        <div class="menu-content">
+            <label class="modal-menu">☰ </label> 
+             <p><a href="pet.html">Home</a></p>
+    <p class="first-paragraph"><a href="./feeding-your-Dog/feeding-your-Dog.html">Feeding your Dog</a></p>
+    <p><a href="./puppy-care/puppy-care.html">Caring for your Dog</a></p>
+    <p class="about"><a href="">Dog Health</a></p>
+    <div class="second-contact">
+        <div><div><div class="divide"><img src="./Pics/location (4).png" alt=""> 
+            <div>
+            <p class="bold-contact">Address</p>
+            
+        <p>Brookyln Nyc</p></div></div>
+        </div>
+        <div> <div ><div class="divide"><img src="./Pics/mail (4).png" alt="" class="second-email"> 
+            <div>
+            <p class="bold-contact">Email</p>
+            <p>mikewebster@gmail.com</p></div></div>
+            </div> 
+            <div><div><div class="divide"><img src="./Pics/call (7).png" alt=""> 
+                <div>
+                <p class="bold-contact">Phone</p>
+                <p>+237 672839462 / +237 6777362538</p></div></div>
+                </div></div>
+        <div></div>
+    </div>
+</div>
+   
+    </div>
+</div>
+
+
+  
+  
+
+
+
+
+
+<!-- Script-->
+<script>  
+ let mainSection=document.querySelector('.main-section')
+ let mainSectionSpan=document.querySelector('.first-span')
+ let i=0
+    let a=[ 'url(./Pics/ruby-schmank-rPC4QnaPqQ0-unsplash.jpg)','url(./Pics/taylor-sondgeroth-ltsKOg_q_Gc-unsplash.jpg)']
+let secondSpan=document.querySelector('.second-span')
+let firstArticle=document.querySelector('.first-article')
+let secondArticle=document.querySelector('.second-article')
+   setInterval(function change(){
+        mainSection.style.backgroundImage=a[i]
+    if(i<a.length-1){
+        i++
+firstArticle.style.display='none'
+secondArticle.style.display='block'
+    }
+  
+   else{
+    i=0
+    firstArticle.style.display='block'
+secondArticle.style.display='none'
+   }},8000)
+   
+   let mainSectionDiv=mainSectionSpan.parentElement
+   console.log(secondArticle)
+   let MenuContainer=document.querySelector('.Menu-container')
+let modalMenu=document.querySelector('.modal-menu')
+modalMenu.addEventListener('click',function(){
+  
+MenuContainer.style.display='none'
+// MenuContainer.style.animation='no-slide 0.5s'
+
+})
+
+let checkBtn=document.querySelector('.check-btn')
+checkBtn.addEventListener('click',function(){
+  
+    MenuContainer.style.display='block'
+   
+})
+
+let date = new Date().getFullYear()
+let footerParagraph=document.querySelector('footer p')
+console.log(footerParagraph.innerText)
+footerParagraph.innerText=`© ${date} Pet Heaven`
+
+    </script>
+   
+
+
+</body>
+</html>
+
+
+
+
+
